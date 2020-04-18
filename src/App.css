@@ -36,3 +36,64 @@
     transform: rotate(360deg);
   }
 }
+
+.gm-style-iw-t {
+  bottom: 40px !important;
+}
+
+
+@media screen and (max-width: 767px) {
+  .OptionStyle .MuiTypography-body1 {
+    font-size: 11px;
+    padding-right: 10px;
+  }
+  .secondRow {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .OptionStyle .MuiTypography-body1 {
+    font-size: 12px;
+    padding-right: 15px;
+  }
+  .secondRow {
+    font-size: 13px;
+  }
+}
+#myCheck {
+  width: 17px;
+  height: 17px;
+}
+[type="checkbox"]
+{
+  vertical-align:middle;
+}
+
+.OptionStyle .MuiRadio-colorSecondary.Mui-checked, .MuiIconButton-colorSecondary:hover, .MuiCheckbox-colorSecondary.Mui-checked {
+  color: lightslategrey !important;
+  background-color:transparent !important;
+}
+.OptionStyle .MuiRadio-root  {
+  padding: 10px 0px;
+}
+.MuiInputBase-input, .MuiInput-input {
+  padding-left: 5px !important;
+}
+.OptionStyle .MuiSvgIcon-root {
+  height: 20px;
+}
+.MuiFormControlLabel-root {
+  margin: 0 !important;
+}
+
+.MuiInput-underline:after {
+  border-bottom: none !important;
+}
+.mainNav {
+  display: flex; align-items: center; justify-content: center;
+}
+
+#mapSection {
+  background-color: rgba(0,0,0,0.75);
+  z-index: 999;
+}
